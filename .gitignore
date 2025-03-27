@@ -1,0 +1,43 @@
+# Python virtual environment
+2048/
+venv/
+.venv/
+env/
+ENV/
+# Exclude all virtual environment directories
+**/lib/python*/site-packages/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.so
+
+# PyTorch specific large files
+*.dylib
+*.dll
+*.pyd
+*.so.1
+*.so.*
+
+# Exclude large model files
+**/torch/lib/*
+**/site-packages/torch/lib/*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local development settings
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo

@@ -1,0 +1,6 @@
+{
+    "beam_width": 20,
+    "search_depth": 40,
+    "early_game_threshold": 512,
+    "mid_game_threshold": 1024
+}
